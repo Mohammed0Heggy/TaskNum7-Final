@@ -573,10 +573,14 @@ i {
     display: none;
   }
 
+  /* body {
+    width: 99.3%;
+  } */
+
   .f-sec p:nth-child(1) {
     color: rgb(196, 112, 9);
     margin-bottom: 50px;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .f-sec p:nth-child(2) {
@@ -596,11 +600,17 @@ i {
 
   .s-sec .card {
     margin-bottom: 30px;
+    width: 95%;
   }
 
   .th-sec .imgs {
     display: flex;
     flex-direction: column;
+  }
+
+  .th-sec2 {
+    width: 82%;
+    padding: 5px;
   }
 
   .th-sec .imgs img {
@@ -613,6 +623,10 @@ i {
 
   .th-sec2 .startegy {
     justify-content: space-around;
+  }
+
+  .sections-header {
+    font-size: 48px !important;
   }
 
   .fif-sec .cards-container {
@@ -691,6 +705,10 @@ i {
 
   }
 
+  .card5 p:nth-child(3) {
+    text-align: center;
+  }
+
   .sv-sec .cards-container3 .card5 {
     margin-bottom: 20px;
   }
@@ -731,7 +749,7 @@ i {
 
   .footer .features {
     text-align: left;
-    margin-right: 150px;
+    /* margin-right: 150px; */
     margin-bottom: 20px;
   }
 
